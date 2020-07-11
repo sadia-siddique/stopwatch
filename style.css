@@ -1,0 +1,90 @@
+*{
+	margin:0;
+	padding: 0;
+
+
+}
+body{
+	background: #007991;  
+
+	background: -webkit-linear-gradient(to right, #006699, #66ccff); 
+	background: linear-gradient(to right, #006699,  #66ccff); 
+
+   
+	height: 100vh;
+
+	
+	align-items: center;
+	justify-content: center;
+	display: flex;
+
+}
+div#stopwatch{
+	border-radius: 18px;
+	padding: 3%;
+	border: 0;
+	box-shadow:5px 5px 10px #66ccff, -5px -5px 10px  #66ccff ;
+	width: 300px;
+	display: inline-block;
+
+}
+div.time{
+	height: 200px;
+	width: 200px;
+	margin:0 auto;
+	border-radius: 50%;
+	background: #66ccff;  
+	background: -webkit-linear-gradient(to right, #006699, #66ccff);  
+	background: linear-gradient(to right, #006699, #66ccff); 
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 4px;
+	color: white;
+	box-shadow:5px 5px 10px #006699, -5px -5px 10px  #66ccff  ;
+	font-size: 40px;
+    font-weight: bolder!important;
+}
+
+button{
+	
+	margin-top: 40px;
+	margin-left: 10px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border:0;
+	background: #007991;  
+	background: -webkit-linear-gradient(to right, #006699, #66ccff );  
+	background: linear-gradient(to right, #006699, #66ccff ); 
+    font-size: 20px;
+    font-weight: bold;
+	box-shadow:5px 5px 10px #006699, -5px -5px 10px  #66ccff ;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  div.time {
+    height: 170px;
+	width: 170px;
+	font-size: 25px;
+  
+}
+}
+
+@media screen and (max-width: 700px) {
+  
+button{
+    width: 65px;
+	height: 65px;
+	font-size: 15px;
+  margin-top: 25px;
+	margin-left: 25px;
+}
+}
+.sw{
+	padding-top: 20px;
+	color: white;
+ font-weight: bold;
+}
